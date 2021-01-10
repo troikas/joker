@@ -5,7 +5,6 @@ function _(el) {
 const gen = _('gen');
 gen.addEventListener('click', () => {
     let x = document.querySelectorAll('.active');
-    console.log(x);
     if (x.length > 0) {
       for (z = 0; z < x.length; z++) {
         x[z].classList.remove('active');
