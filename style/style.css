@@ -1,0 +1,138 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+    min-width: 100vh;
+
+    background-color: #f0f1f0;
+}
+
+header
+{
+    display: flex;
+
+    height: 3em;
+    margin: 1.5em;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img
+{
+    width: 3em;
+}
+
+header .htitle,
+h3
+{
+    color: #fff;
+    text-shadow: 1px 1px 3px #171615;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    margin: 1em auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.big,
+.joker
+{
+    display: flex;
+}
+
+.tbn
+{
+    margin: .5em;
+}
+
+table
+{
+    padding: .2em;
+
+    border: 1px solid #ccc;
+}
+
+table td
+{
+    padding: .1em;
+
+    text-align: center;
+
+    border: 1px solid #ccc;
+}
+
+footer
+{
+    line-height: 2em;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 2em;
+
+    text-align: center;
+}
+
+.active
+{
+    color: #fff;
+    border-radius: 50%;
+    background: #1e9505;
+}
+
+.gen
+{
+    margin-top: 3em;
+}
+
+.gen button
+{
+    font-weight: bold;
+
+    padding: 1em;
+
+    cursor: pointer;
+
+    color: #ccc;
+    border: none;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+    background: none;
+    background: #1e9505;
+}
+.gen button:hover
+{
+    color: #1e9505;
+    border: 2px solid #1e9505;
+    background: #ccc;
+}
+
+footer a
+{
+    text-decoration: none;
+
+    color: #fff;
+    text-shadow: 1px 1px 3px #171615;
+}
+
+footer a:hover
+{
+    color: #45d47e;
+    text-shadow: none;
+}
