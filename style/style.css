@@ -91,6 +91,8 @@ footer
 
 .active
 {
+    transition: 2s;
+
     color: #fff;
     border-radius: 50%;
     background: #1e9505;
