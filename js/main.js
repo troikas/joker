@@ -5,7 +5,16 @@ function _(e) {
 const myDay = new Date();
 let myYear = myDay.getFullYear();
 
-
+_('switch').addEventListener('click', () => {
+    document.body.classList.toggle('bdark');
+    if (document.body.classList.contains('bdark')) {
+      _('switch').innerText = 'Light';
+      _('switch').style.color = '#fff';
+    } else {
+      _('switch').innerText = 'Dark';
+      _('switch').style.color = '#000';
+    }
+  });
 
 function makeTable(col, row, id) {
   let myNum = 0;

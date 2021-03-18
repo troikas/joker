@@ -16,6 +16,12 @@ body
     background: #f0f1f0;
 }
 
+.bdark
+{
+    color: #f0f1f0;
+    background: #474747;
+}
+
 header
 {
     display: flex;
@@ -32,9 +38,39 @@ header .logo img
     width: 3rem;
 }
 
+header .htitle
+{
+    display: flex;
+
+    width: 50%;
+
+    justify-content: space-between;
+}
+
+header .htitle button
+{
+    font-weight: bold;
+
+    padding: 1em;
+
+    cursor: pointer;
+
+    border: none;
+    background: transparent;
+}
+
+header .htitle button:hover
+{
+    color: #fff;
+    border-radius: 1em;
+    background: #1e9505;
+}
+
 header .htitle,
 h3
 {
+    padding: 1em;
+
     color: #f0f1f0;
     text-shadow: 1px 1px 3px #171615;
 }
